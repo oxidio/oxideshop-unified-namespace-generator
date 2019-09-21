@@ -35,6 +35,9 @@
     }
   },
   "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    },
     "class": "OxidEsales\\UnifiedNameSpaceGenerator\\Plugin"
   }
 }
