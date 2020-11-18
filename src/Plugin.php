@@ -117,4 +117,12 @@ class Plugin implements PluginInterface, EventSubscriberInterface
         }
         return $maps ? array_merge(...$maps) : [];
     }
+
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+    }
 }
